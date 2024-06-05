@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temmie's Tiny Tresures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="header">
+        <video autoplay muted loop playsinline class="background-video">
+            <source src="Tpictures/stars.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="logo">
+            <img src="Tpictures/logo.jpg" alt="Logo" id="logo-img">
+        </div>
+        <div id="tdiv">
+            <h1>Temmie's Tiny Treasures</h1>
+        </div>
+        <ul id="main-menu">
+            <li onclick="toggleMenu()">Menu
+                <ul id="submenu">
+                    <li>0-1yr</li>
+                    <li>1-2yrs</li>
+                    <li>others</li>
+                </ul>
+            </li>
+            <li><a href="#About">About</a></li>
+            <li>Tour</li>
+            <li>Pictures</li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div id="details">
+        <div id="background-image-container"></div>
+        <div id="content-container">
+            <div class="column">
+                <div id="Contact">
+                    <h2 class="ta" class="section-title">Contact Us</h2>
+                    <ul class="contact-list">
+                        <li><strong>Address:</strong><br>
+                            NNPC Depot Junction<br>
+                            Abeokuta Road<br>
+                            Apata, Ibadan<br>
+                            Oyo State</li>
+                        <li><strong>E-mail:</strong>
+                            temmietinytreasures @<br>
+                            yahoo.com</li>
+                        <li><strong>Tel:</strong><br>
+                            +2347065529337</li>
+                        <li><strong>website:</strong><br>
+                            www.temmitinytresures.com</li>
+                    </ul>
+                    <div class="social-m">
+                        <h3>Follow us </h3>
+                        <ul class="contact-list">
+                            <li href="#">facebook</li>
+                            <li href="#">Instagram</li>
+                            <li href="#">x</li>
+                            <li href="#">Drums</li>
+                        </ul class="contact-list">
+                        <h3>Business-Hours</h3>
+                        <ul class="contact-list" class="business-hours">
+                            <li>Mon-Friday: 9am - 7pm</li>
+                            <li>Saturday: 9am - 8pm</li>
+                            <li>Sunday: closed</li>
+                        </ul>
+                        <h3>Frequently Asked Questions</h3>
+                        <ul class="contact-list" class="fq">
+                            <li><strong>Q: Do you offer home delivery?</strong><br>
+                                A: Yes, we offer convenient home delivery services.</li>
+                            <li><strong>Q: How can I track my order?</strong><br>
+                                A: You will receive a tracking number via email
+                                once your order has been shipped.
+                        </ul>
+                    </div>
+                    <h3>Our Location</h3>
+                    <div id="map"></div>
+                </div>
+            </div>
+            <div id="pictures" class="column large"><div id="datetime-location"></div>
+                <div id="About">
+                    <h2 class="ta" class="section-title">About Us:</h2>
+                    <p class="contact-list"> Welcome to Temmie's Tiny Treasures!
+                        At Temmie's Tiny Treasures, we believe that every baby deserves the best,
+                        and every parent deserves affordable, high-quality options.
+                        We specialize in<span> excellently used baby wears, accessories, and toys</span>,
+                        providing a practical and economical solution for families.
+                        Our commitment to quality ensures that each item we offer meets
+                        our stringent standards, giving you peace of mind and value for your money.
+                        Our mission is to ease the financial burden of raising children
+                        without compromising on quality. We source our products from trusted partners who share our
+                        dedication to excellence. This collaboration allows us to bring you top-tier baby wears and
+                        accessories at a fraction of the cost of new items.
+                        In addition to our exceptional product offerings,
+                        we are proud to provide convenient home delivery services.
+                        Our team is dedicated to making your shopping experience as seamless as possible, bringing the
+                        essentials you need right to your doorstep. We understand the demands of parenting, and our
+                        delivery service is designed to save you time and effort.
+                        At Temmie's Tiny Treasures, we are more than just a store.
+                        We are a community of parents, caregivers, and baby enthusiasts
+                        who are passionate about providing the best for our little ones.
+                        Join us on our journey to becoming the leading provider of baby wears
+                        and accessories in the market. Discover the difference that quality,
+                        affordability, and convenience can make.
+                        Thank you for choosing Temmie's Tiny Treasures.
+                        We look forward to serving you and your family</p>
+                </div>
+
+                
+                <h2>Pictures and Videos(......coming soon)</h2><br>
+                <!-- List of pictures and videos -->
+            </div>
+            <div id="contact" class="column">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="message">Your Meassage</label><br><br>
+                    <textarea id="your message" name="your message" rows="4" col="50"></textarea><br><br>
+                    <input type="submit" value="submit">
+                </form>
+
+                <div id="newArrivals">New Arrivals!</div>
+            </div>
+
+
+            
+            <script src="Temmie.scripts.js"></script>
+            
+</body>
+
+</html>

@@ -1,2 +1,0 @@
-# TemmiesTinyTreasures
-Baby Clothes
