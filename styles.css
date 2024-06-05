@@ -298,3 +298,26 @@ h3 {
     transition: all 0.5s ease-in-out;
     font-style: italic;
 }
+
+@media only screen and (max-width: 480px) {
+    #header {
+        height: 80px; 
+    }
+    #logo {
+        width: 100px; 
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    #header {
+        height: 100px; 
+    }
+    #logo {
+        width: 120px; 
+        height: auto;
+    }
+    
+}
+
+
