@@ -94,7 +94,7 @@ body {
     margin-bottom: 11px;
     width: 70%;
     height: 150px;
-    background-image: url('Tpictures/tope.jpg');
+    background-image: url('tope.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('Tpictures/logo.jpg');
+    background-image: url('logo.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
