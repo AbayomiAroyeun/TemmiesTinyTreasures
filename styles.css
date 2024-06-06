@@ -120,9 +120,6 @@ body {
     margin-right: 10px;
 }
 
-#main-menu li:hover {
-    background-color: pink;
-}
 
 #main-menu a {
     color: inherit;
