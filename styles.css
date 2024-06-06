@@ -105,10 +105,11 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
 }
 
 #main-menu li {
-    flex-direction: column;
+
     border: 2px solid green;
     border-radius: 2px;
     padding: 2px;
@@ -132,7 +133,7 @@ body {
     list-style-type: none;
     color: blue;
     display: none;
-    position: absolute;
+    position: relative;
     top: 100%;
     left: 0;
     background-color: #333;
@@ -142,7 +143,9 @@ body {
 
 #submenu li {
     padding: 5px 10px;
-    color: white;
+    color: yellow;
+    
+
 }
 
 #submenu li:hover {
@@ -312,12 +315,12 @@ h3 {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 }
