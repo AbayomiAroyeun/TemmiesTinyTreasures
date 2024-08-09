@@ -9,7 +9,15 @@ function displayDateTimeLocation() {
     const now = new Date();
 
     // Options for formatting date and time
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+    const options = { 
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit' 
+    };
     dateTimeLocation.innerHTML = now.toLocaleDateString('en-US', options);
 }
 
